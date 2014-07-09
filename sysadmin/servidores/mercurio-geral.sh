@@ -25,3 +25,16 @@ sysctl vm.vfs_cache_pressure=50
 sudo vi /etc/sysctl.conf
 # Adicionar ao final
 vm.vfs_cache_pressure = 50
+
+
+
+
+#
+apt-get install make g++
+apt-get install openssl-dev  libssl-dev
+
+apt-get install ruby
+apt-get install ruby-dev
+gem install eventmachine
+
+gem install twitter_to_csv
